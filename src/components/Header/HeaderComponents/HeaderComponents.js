@@ -34,7 +34,7 @@ export const Link = styled(NavLink)`
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
-    color: #666666;
+    color:${props => (props.theme === 'white') ? '#666666' : '#A7A7A7'};
     text-decoration: none;
 `
 
