@@ -5,3 +5,11 @@ body {
     font-family: 'Poppins', sans-serif;
     user-select: none;
 }
+
+html, body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}

@@ -5,6 +5,9 @@ export const Main = styled.div`
     transition: .3s;
     background: ${props => (props.theme === 'white') ? '#FFFFFF' : '#191919'};
     position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 `
 
 export const Toggle = styled.div`

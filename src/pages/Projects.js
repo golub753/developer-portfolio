@@ -1,10 +1,13 @@
+import {Section} from '../containers/Container/Section';
 import Container from '../containers/Container/Container';
 
 const Projects = () => {
     return ( 
-        <Container>
-            projects
-        </Container>
+        <Section>
+            <Container>
+                projects
+            </Container>
+        </Section>
      );
 }
  
