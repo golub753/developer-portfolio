@@ -7,6 +7,7 @@ import Stack from '../pages/Stack';
 import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
 import Header from "./Header/Header";
+import Footer from './Footer/Footer';
 import { useSelector } from 'react-redux';
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
+        <Footer/>
       </Router>
       <Toggler/>
     </Main>
