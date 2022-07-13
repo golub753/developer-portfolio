@@ -7,7 +7,7 @@ const Main = () => {
         <Block>
             <Wrapper>
                 <Text theme={theme}>
-                Hi 👋,<br></br>
+                Hi👋,<br></br>
                 My name is<br></br>
                 <GradientText>Anton Holub</GradientText><br></br>
                 I am a Frontend Developer
