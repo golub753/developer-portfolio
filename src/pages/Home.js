@@ -1,9 +1,12 @@
 import Container from '../containers/Container/Container';
+import Main from '../components/Main/Main';
 
 const Home = () => {
     return ( 
         <Container>
-            Home
+            <Main>
+                
+            </Main>
         </Container>
      );
 }

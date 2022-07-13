@@ -5,7 +5,6 @@ export const Main = styled.div`
     transition: .3s;
     background: ${props => (props.theme === 'white') ? '#FFFFFF' : '#191919'};
     position: relative;
-    height: 100vh;
 `
 
 export const Toggle = styled.div`
