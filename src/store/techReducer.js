@@ -12,6 +12,10 @@ const defaultState = [
         alt: 'javascript'
     },
     {
+        icon: '../images/icons/typescript.svg',
+        alt: 'typescript'
+    },
+    {
         icon: '../images/icons/react.svg',
         alt: 'react'
     },

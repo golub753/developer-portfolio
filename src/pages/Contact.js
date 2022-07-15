@@ -8,7 +8,7 @@ const Contact = () => {
     return ( 
         <Section style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
             <Container>
-                <MainText theme={theme}>For any questions please mail us:</MainText>
+                <MainText theme={theme}>For any questions please mail me:</MainText>
                 <Mail href='mailto:golubanton753@gmail.com'>golubanton753@gmail.com</Mail>
             </Container>
         </Section>

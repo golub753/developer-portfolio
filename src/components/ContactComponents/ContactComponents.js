@@ -8,7 +8,7 @@ export const MainText = styled.div`
     line-height: 70px;
     text-align: center;
     letter-spacing: -1px;
-    color: ${props => props.theme === 'white' ? '#1E0E62' : '#CCCCCC'};
+    color: ${props => props.theme === 'white' ? '#42446E' : '#CCCCCC'};
     margin-bottom: 9px;
     transition: .3s;
 `

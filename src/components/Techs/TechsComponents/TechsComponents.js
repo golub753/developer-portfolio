@@ -8,8 +8,6 @@ export const Title = styled.div`
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 26px;
-    text-align: center;
     margin-bottom: 49px;
     transition: .3s;
     color: ${props => props.theme === 'white' ? '#42446E' : '#CCCCCC'};
@@ -19,7 +17,6 @@ export const Subtitle = styled.div`
     font-weight: 400;
     font-size: 32px;
     line-height: 26px;
-    text-align: center;
     transition: .3s;
     color: ${props => props.theme === 'white' ? '#666666' : '#A7A7A7'};
     margin-bottom: 80px;

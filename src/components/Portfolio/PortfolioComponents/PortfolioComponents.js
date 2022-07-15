@@ -7,8 +7,6 @@ export const Section = styled.div`
 export const Title = styled.div`
     font-weight: 700;
     font-size: 48px;
-    line-height: 26px;
-    text-align: center;
     color: ${props => props.theme === 'white' ? '#42446E' : '#CCCCCC'};
     margin-bottom: 49px;
     transition: .3s;
@@ -18,7 +16,6 @@ export const Subtitle = styled.div`
     font-weight: 400;
     font-size: 32px;
     line-height: 26px;
-    text-align: center;
     color: ${props => props.theme === 'white' ? '#666666' : '#A7A7A7'};
     margin-bottom: 80px;
     transition: .3s;
