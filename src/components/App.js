@@ -8,12 +8,22 @@ import Projects from '../pages/Projects';
 import Contact from '../pages/Contact';
 import Header from "./Header/Header";
 import Footer from './Footer/Footer';
+import Loader from './Loader/Loader';
 import { useSelector } from 'react-redux';
+import { useEffect, useState } from 'react';
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
   const theme = useSelector(state => state.theme.theme);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false)
+    }, 1500)
+  }, [])
   return ( 
-    <Main theme={theme}>
+    (loading) ? <Loader/>
+      : 
+      <Main theme={theme}>
       <Router>
         <Header/>
         <Routes>
@@ -27,6 +37,7 @@ const App = () => {
       </Router>
       <Toggler/>
     </Main>
+    
    );
 }
  
