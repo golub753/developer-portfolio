@@ -2,23 +2,23 @@ const defaultState = {
     links: [
         {
             text: 'Home',
-            link: '/developer-portfolio'
+            link: '/'
         },
         {
             text: 'About',
-            link: '/developer-portfolio/about'
+            link: '/about'
         },
         {
             text: 'Tech Stack',
-            link: '/developer-portfolio/stack'
+            link: '/stack'
         },
         {
             text: 'Projects',
-            link: '/developer-portfolio/projects'
+            link: '/projects'
         },
         {
             text: 'Contact',
-            link: '/developer-portfolio/contact'
+            link: '/contact'
         }
     ],
     networks: [
