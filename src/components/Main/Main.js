@@ -13,7 +13,7 @@ const Main = () => {
                 I am a Frontend Developer
                 </Text>
                 <ImageWrapper>
-                    <Image src="../images/images/mainPhoto.jpg" alt="mainPhoto"/>
+                    <Image src="https://golub753.github.io/developer-portfolio/images/images/mainPhoto.jpg" alt="mainPhoto"/>
                 </ImageWrapper>
             </Wrapper>
         </Block>

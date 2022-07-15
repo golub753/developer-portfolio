@@ -8,7 +8,7 @@ const Header = () => {
         <Main>
             <Container>
                 <Wrapper>
-                    <Logo src='../images/images/logo.png'/>
+                    <Logo src='https://golub753.github.io/developer-portfolio/images/images/logo.png'/>
                     <Nav>
                         <Lists>
                             <HeaderLinks/>

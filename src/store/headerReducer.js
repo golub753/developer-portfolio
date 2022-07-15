@@ -2,36 +2,36 @@ const defaultState = {
     links: [
         {
             text: 'Home',
-            link: '/'
+            link: '/developer-portfolio'
         },
         {
             text: 'About',
-            link: '/about'
+            link: '/developer-portfolio/about'
         },
         {
             text: 'Tech Stack',
-            link: '/stack'
+            link: '/developer-portfolio/stack'
         },
         {
             text: 'Projects',
-            link: '/projects'
+            link: '/developer-portfolio/projects'
         },
         {
             text: 'Contact',
-            link: '/contact'
+            link: '/developer-portfolio/contact'
         }
     ],
     networks: [
         {
-            img: '../images/icons/github.svg',
+            img: 'https://golub753.github.io/developer-portfolio/images/icons/github.svg',
             link: 'https://github.com/golub753'
         },
         {
-            img: '../images/icons/twitter.svg',
+            img: 'https://golub753.github.io/developer-portfolio/images/icons/twitter.svg',
             link: 'https://twitter.com/glov1k_fusi'
         },
         {
-            img: '../images/icons/linkedin.svg',
+            img: 'https://golub753.github.io/developer-portfolio/images/icons/linkedin.svg',
             link: 'https://www.linkedin.com/in/anton-holub'
         },
     ]

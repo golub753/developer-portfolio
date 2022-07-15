@@ -23,12 +23,12 @@ const PortfolioBlock = ({item}) => {
                 </InfoWithText>
                 <Links>
                     <Chain href={item.link} target="_blank">
-                        <Icon theme={theme} src="../images/icons/chain.svg" alt="chain"/>
+                        <Icon theme={theme} src="https://golub753.github.io/developer-portfolio/images/icons/chain.svg" alt="chain"/>
                         <ChainText theme={theme}>Live Preview</ChainText>
                     </Chain>
                     {(item.code)
                     ? <Chain href={item.code} target="_blank">
-                        <Icon theme={theme} src="../images/icons/gh.svg" alt="gh"/>
+                        <Icon theme={theme} src="https://golub753.github.io/developer-portfolio/images/icons/gh.svg" alt="gh"/>
                         <ChainText theme={theme}>View Code</ChainText>
                     </Chain> : false}
                 </Links>

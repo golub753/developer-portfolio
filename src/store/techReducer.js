@@ -1,54 +1,54 @@
 const defaultState = [
     {
-        icon: '../images/icons/html.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/html.svg',
         alt: 'html'
     },
     {
-        icon: '../images/icons/css.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/css.svg',
         alt: 'css'
     },
     {
-        icon: '../images/icons/javascript.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/javascript.svg',
         alt: 'javascript'
     },
     {
-        icon: '../images/icons/typescript.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/typescript.svg',
         alt: 'typescript'
     },
     {
-        icon: '../images/icons/react.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/react.svg',
         alt: 'react'
     },
     {
-        icon: '../images/icons/redux.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/redux.svg',
         alt: 'redux'
     },
     {
-        icon: '../images/icons/graphql.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/graphql.svg',
         alt: 'graphql'
     },
     {
-        icon: '../images/icons/sass.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/sass.svg',
         alt: 'sass'
     },
     {
-        icon: '../images/icons/git.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/git.svg',
         alt: 'git'
     },
     {
-        icon: '../images/icons/vscode.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/vscode.svg',
         alt: 'vscode'
     },
     {
-        icon: '../images/icons/github_logo.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/github_logo.svg',
         alt: 'github_logo'
     },
     {
-        icon: '../images/icons/firebase.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/firebase.svg',
         alt: 'firebase'
     },
     {
-        icon: '../images/icons/webpack.svg',
+        icon: 'https://golub753.github.io/developer-portfolio/images/icons/webpack.svg',
         alt: 'webpack'
     }
 ]

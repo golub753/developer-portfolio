@@ -12,14 +12,14 @@ const AboutBlock = ({title, name, location, employment, dates}) => {
                     </Name>
                     <BottomInfo>
                         <SubscInfo>
-                            <Icon src="../images/icons/office.svg" alt="office"/>
+                            <Icon src="https://golub753.github.io/developer-portfolio/images/icons/office.svg" alt="office"/>
                             <Subsc theme={theme}>
                                 {name}
                             </Subsc>
                         </SubscInfo>
                         {(location) ? 
                             <SubscInfo>
-                            <Icon src="../images/icons/location.svg" alt="location"/>
+                            <Icon src="https://golub753.github.io/developer-portfolio/images/icons/location.svg" alt="location"/>
                             <Subsc theme={theme}>
                                 {location}
                             </Subsc>
@@ -31,7 +31,7 @@ const AboutBlock = ({title, name, location, employment, dates}) => {
                         {employment}
                     </Employment>
                     <Dates>
-                        <Icon src="../images/icons/calendar.svg" alt="calendar"/>
+                        <Icon src="https://golub753.github.io/developer-portfolio/images/icons/calendar.svg" alt="calendar"/>
                         <DateText theme={theme}>
                             {dates}
                         </DateText>

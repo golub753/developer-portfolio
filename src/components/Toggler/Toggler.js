@@ -14,8 +14,8 @@ const Toggler = () => {
     }
     return ( 
         <Toggle theme={theme} onClick={() => switchTheme()}>
-            <Sun theme={theme} src="../images/images/sun.png"/>
-            <Moon theme={theme} src="../images/images/moon.png"/>
+            <Sun theme={theme} src="https://golub753.github.io/developer-portfolio/images/images/sun.png"/>
+            <Moon theme={theme} src="https://golub753.github.io/developer-portfolio/images/images/moon.png"/>
         </Toggle>
      );
 }
