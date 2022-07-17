@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Section = styled.div`
     padding: 100px 0;
+    @media (max-width: 1024px) {
+        padding: 50px 0;
+    }
 `
 
 export const Title = styled.div`
@@ -27,6 +30,9 @@ export const Blocks = styled.div`
     grid-column-gap: 48px;
     grid-auto-rows: max-content;
     grid-row-gap: 65px;
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(2,1fr);
+    }
 `
 
 export const Block = styled.div`

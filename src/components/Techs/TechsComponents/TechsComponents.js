@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Section = styled.div`
     padding: 100px 0;
+    @media (max-width: 1024px) {
+        padding: 50px 0;
+    }
 `
 
 export const Title = styled.div`
@@ -27,6 +30,12 @@ export const Technologies = styled.div`
     grid-template-columns: repeat(6, 1fr);
     justify-content: space-between;
     grid-row-gap: 80px; 
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(5,1fr);
+    }
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(4,1fr);
+    }
 `
 
 export const LogoWrapper = styled.div`

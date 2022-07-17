@@ -7,6 +7,9 @@ export const Main = styled.div`
 
 export const Logo = styled.img`
     width: 150px;
+    @media (max-width: 1024px) {
+        width: 125px;
+    }
 `
 
 export const Wrapper = styled.div`
@@ -24,6 +27,9 @@ export const Ul = styled.ul`
     display: flex;
     align-items: center;
     grid-column-gap: 60px;
+    @media(max-width: 1024px) {
+        grid-column-gap: 20px;
+    }
 `
 
 export const Li = styled.li``
@@ -36,12 +42,18 @@ export const Link = styled(NavLink)`
     line-height: 26px;
     color:${props => (props.theme === 'white') ? '#666666' : '#A7A7A7'};
     text-decoration: none;
+    @media (max-width: 1024px) {
+        font-size: 17px;
+    }
 `
 
 export const Lists = styled.div`
     display: flex;
     align-items: center;
     grid-column-gap: 50px;
+    @media (max-width: 1024px) {
+        grid-column-gap: 20px;
+    }
 `
 
 export const Networks = styled.ul`
@@ -59,4 +71,7 @@ export const Network = styled.a`
 
 export const Img = styled.img`
     width: 30px;
+    @media (max-width: 1024px) {
+        width: 25px;
+    }
 `

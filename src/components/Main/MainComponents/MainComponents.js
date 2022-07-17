@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Block = styled.div`
     padding: 100px 0;
+    @media (max-width: 1024px) {
+        padding: 50px 0;
+    }
 `
 
 export const Wrapper = styled.div`
@@ -19,6 +22,10 @@ export const Text = styled.div`
     line-height: 70px;
     transition: .3s;
     color: ${props => props.theme === 'white' ? '#42446E' : '#D9D9D9'};
+    @media (max-width: 1024px) {
+        font-size: 50px;
+        line-height: 55px;
+    }
 `
 
 export const GradientText = styled.span`

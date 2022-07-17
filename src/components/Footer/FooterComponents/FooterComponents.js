@@ -13,12 +13,20 @@ export const Wrapper = styled.div`
 
 export const Logo = styled.img`
     width: 150px;
+    @media (max-width: 1024px) {
+        width: 125px;
+    }
 `
 
 export const Contacts = styled.div`
     display: flex;
     align-items: center;
     grid-column-gap: 60px;
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        align-items: flex-end;
+        grid-row-gap: 15px;
+    }
 `
 
 export const Path = styled.a`
@@ -30,6 +38,9 @@ export const Path = styled.a`
     color: ${props => props.theme === 'white' ? '#42446E' : '#A7A7A7'};
     transition: .3s;
     text-decoration: none;
+    @media (max-width: 1024px) {
+        font-size: 17px;
+    }
 `
 
 export const Networks = styled.div`
@@ -47,6 +58,9 @@ export const Network = styled.a`
 
 export const Img = styled.img`
     width: 30px;
+    @media (max-width: 1024px) {
+        width: 25px;
+    }
 `
 
 export const Line = styled.div`
@@ -56,7 +70,11 @@ export const Line = styled.div`
     margin-bottom: 53px;
 `
 
-export const Nav = styled.nav``
+export const Nav = styled.nav`
+    @media (max-width: 1024px) {
+        width: 100%;
+    }
+`
 
 export const Ul = styled.ul`
     list-style-type: none;
@@ -65,6 +83,10 @@ export const Ul = styled.ul`
     display: flex;
     align-items: center;
     grid-column-gap: 60px;
+    @media (max-width: 1024px) {
+        justify-content: space-between;
+        grid-column-gap: unset;
+    }
 `
 
 export const Li = styled.li``
@@ -77,4 +99,7 @@ export const Link = styled(NavLink)`
     line-height: 26px;
     color:${props => (props.theme === 'white') ? '#666666' : '#A7A7A7'};
     text-decoration: none;
+    @media (max-width: 1024px) {
+        font-size: 17px;
+    }
 `
