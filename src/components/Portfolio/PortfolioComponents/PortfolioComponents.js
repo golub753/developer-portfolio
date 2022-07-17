@@ -23,9 +23,9 @@ export const Subtitle = styled.div`
 
 export const Blocks = styled.div`
     display: grid;
-    grid-template-columns: repeat(3, 373px);
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 48px;
     grid-auto-rows: max-content;
-    justify-content: space-between;
     grid-row-gap: 65px;
 `
 
@@ -109,6 +109,8 @@ export const Links = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    grid-row-gap: 10px;
 `
 
 export const Chain = styled.a`

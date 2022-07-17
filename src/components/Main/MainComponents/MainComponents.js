@@ -6,7 +6,7 @@ export const Block = styled.div`
 
 export const Wrapper = styled.div`
     display: grid;
-    grid-template-columns: 636px 350px;
+    grid-template-columns: minmax(1px, 636px) 350px;
     justify-content: space-between;
     align-items: center;
 `
