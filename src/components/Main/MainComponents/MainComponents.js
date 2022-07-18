@@ -5,6 +5,9 @@ export const Block = styled.div`
     @media (max-width: 1024px) {
         padding: 50px 0;
     }
+    @media (max-width: 768px) {
+        padding: 25px 0;
+    }
 `
 
 export const Wrapper = styled.div`
@@ -12,6 +15,10 @@ export const Wrapper = styled.div`
     grid-template-columns: minmax(1px, 636px) 350px;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
 `
 
 export const Text = styled.div`
@@ -25,6 +32,10 @@ export const Text = styled.div`
     @media (max-width: 1024px) {
         font-size: 50px;
         line-height: 55px;
+    }
+    @media (max-width: 768px) {
+        font-size: 35px;
+        line-height: 35px;
     }
 `
 
@@ -54,6 +65,17 @@ export const ImageWrapper = styled.div`
         border-radius: 50%;
         z-index: -1;
     }
+    @media (max-width: 768px) {
+    border-radius: 0;
+        ::after {
+            left: -4px;
+            top: -2px;
+            content: '';
+            width: 101%;
+            height: 101%;
+            border-radius: 0;
+        }
+    }
 `
 
 export const Image = styled.img`
@@ -62,4 +84,7 @@ export const Image = styled.img`
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+    @media (max-width: 768px) {
+        border-radius: 0;
+    }
 `

@@ -5,6 +5,9 @@ export const Section = styled.div`
     @media (max-width: 1024px) {
         padding: 50px 0;
     }
+    @media (max-width: 768px) {
+        padding: 25px 0;
+    }
 `
 
 export const Title = styled.div`
@@ -13,6 +16,10 @@ export const Title = styled.div`
     color: ${props => props.theme === 'white' ? '#42446E' : '#CCCCCC'};
     margin-bottom: 49px;
     transition: .3s;
+    @media (max-width: 768px) {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
 `
 
 export const Subtitle = styled.div`
@@ -22,6 +29,11 @@ export const Subtitle = styled.div`
     color: ${props => props.theme === 'white' ? '#666666' : '#A7A7A7'};
     margin-bottom: 80px;
     transition: .3s;
+    @media (max-width: 768px) {
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 35px;
+    }
 `
 
 export const Blocks = styled.div`
@@ -32,6 +44,9 @@ export const Blocks = styled.div`
     grid-row-gap: 65px;
     @media (max-width: 1024px) {
         grid-template-columns: repeat(2,1fr);
+    }
+    @media (max-width: 1024px) {
+        grid-template-columns: 1fr;
     }
 `
 
@@ -76,6 +91,10 @@ export const Name = styled.div`
     margin-bottom: 17px;
     text-transform: uppercase;
     transition: .3s;
+    @media (max-width: 768px) {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
 `
 
 export const Description = styled.div`
@@ -85,6 +104,9 @@ export const Description = styled.div`
     color: ${props => props.theme === 'white' ? '#666666' : '#CCCCCC'};
     margin-bottom: 12px;
     transition: .3s;
+    @media (max-width: 768px) {
+        font-size: 16px;
+    }
 `
 
 export const StackLine = styled.div`

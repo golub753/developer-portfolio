@@ -31,7 +31,7 @@ export const Nav = styled.nav`
         top: 100%;
         padding: 15px 15px;
         z-index: 2;
-        transition: 0.55s opacity, 0.55s visibility;
+        transition: 0.55s opacity, 0.55s visibility, 0.3s background;
         background: ${props => props.theme === 'white' ? '#FFFFFF' : '#191919'}
     }
 `

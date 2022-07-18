@@ -3,6 +3,9 @@ import { NavLink } from "react-router-dom";
 
 export const Section = styled.div`
     padding: 60px;
+    @media (max-width: 768px) {
+        padding: 15px;
+    }
 `
 
 export const Wrapper = styled.div`
