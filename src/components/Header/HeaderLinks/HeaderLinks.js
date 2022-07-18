@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import { Ul } from "../HeaderComponents/HeaderComponents";
 import HeaderLink from "../HeaderLink/HeaderLink";
 
-const HeaderLinks = () => {
+const HeaderLinks = ({closeMenu}) => {
     const links = useSelector(state => state.links.links);
     return ( 
         <Ul>
@@ -12,6 +12,7 @@ const HeaderLinks = () => {
                         text={item.text}
                         link={item.link}
                         key={key}
+                        closeMenu={closeMenu}
                     />
                 )
             })}

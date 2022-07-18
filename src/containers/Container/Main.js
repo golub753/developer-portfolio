@@ -19,7 +19,7 @@ export const Toggle = styled.div`
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 2;
 `
 
 export const Sun = styled.img`

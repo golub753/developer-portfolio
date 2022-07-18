@@ -3,6 +3,9 @@ import { NavLink } from "react-router-dom";
 
 export const Main = styled.div`
     padding: 40px 0;
+    @media (max-width: 768px) {
+        position: relative;
+    }
 `
 
 export const Logo = styled.img`
@@ -18,7 +21,20 @@ export const Wrapper = styled.div`
     justify-content: space-between;
 `
 
-export const Nav = styled.nav``
+export const Nav = styled.nav`
+    @media (max-width: 768px) {
+        position: absolute;
+        left: 0;
+        right: 0;
+        opacity: ${props => props.menu ? '1' : '0'};
+        visibility: ${props => props.menu ? 'visible' : 'hidden'};
+        top: 100%;
+        padding: 15px 15px;
+        z-index: 2;
+        transition: 0.55s opacity, 0.55s visibility;
+        background: ${props => props.theme === 'white' ? '#FFFFFF' : '#191919'}
+    }
+`
 
 export const Ul = styled.ul`
     list-style-type: none;
@@ -29,6 +45,10 @@ export const Ul = styled.ul`
     grid-column-gap: 60px;
     @media(max-width: 1024px) {
         grid-column-gap: 20px;
+    }
+    @media (max-width: 768px) {
+        flex-direction: column;
+        grid-row-gap: 20px;
     }
 `
 
@@ -54,6 +74,10 @@ export const Lists = styled.div`
     @media (max-width: 1024px) {
         grid-column-gap: 20px;
     }
+    @media (max-width: 768px) {
+        flex-direction: column;
+        grid-row-gap: 20px;
+    }
 `
 
 export const Networks = styled.ul`
@@ -74,4 +98,51 @@ export const Img = styled.img`
     @media (max-width: 1024px) {
         width: 25px;
     }
+`
+
+export const Burger = styled.div`
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 21px;
+    transition: 0.3s;
+    ::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 2px;
+        border-radius: 10px;
+        transition: 0.3s;
+        background: ${props => props.theme === 'white' ? '#666666' : '#A7A7A7'}
+    }
+    ::before {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 2px;
+        border-radius: 10px;
+        transition: 0.3s;
+        background: ${props => props.theme === 'white' ? '#666666' : '#A7A7A7'}
+    }
+    @media (max-width: 768px) {
+        display: flex;
+    }
+`
+
+export const BurgerLine = styled.div`
+    width: 100%;
+    height: 2px;
+    border-radius: 10px;
+    transition: 0.3s;
+    background: ${props => props.theme === 'white' ? '#666666' : '#A7A7A7'}
 `
