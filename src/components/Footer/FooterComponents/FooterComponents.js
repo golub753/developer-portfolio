@@ -12,6 +12,11 @@ export const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media (max-width: 560px) {
+        margin-bottom: 25px;
+        flex-direction: column;
+        grid-row-gap: 20px;
+    }
 `
 
 export const Logo = styled.img`
@@ -29,6 +34,9 @@ export const Contacts = styled.div`
         flex-direction: column;
         align-items: flex-end;
         grid-row-gap: 15px;
+    }
+    @media (max-width: 560px) {
+        align-items: center;
     }
 `
 
@@ -71,6 +79,9 @@ export const Line = styled.div`
     background: ${props => props.theme === 'white' ? 'rgba(102, 102, 102, 0.3)' : 'rgba(66, 68, 110, 0.3);'};
     transition: .3s;
     margin-bottom: 53px;
+    @media (max-width: 560px) {
+        margin-bottom: 25px;
+    }
 `
 
 export const Nav = styled.nav`
@@ -89,6 +100,10 @@ export const Ul = styled.ul`
     @media (max-width: 1024px) {
         justify-content: space-between;
         grid-column-gap: unset;
+    }
+    @media (max-width: 560px) {
+        flex-direction: column;
+        grid-row-gap: 20px;
     }
 `
 

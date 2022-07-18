@@ -75,6 +75,9 @@ export const Info = styled.div`
     flex-direction: column;
     justify-content: space-between;
     height: calc(100% - 316px);
+    @media (max-width: 560px) {
+        padding: 27px 22px 25px 20px;
+    }
 `
 
 export const InfoWithText = styled.div`
