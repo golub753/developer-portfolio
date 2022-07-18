@@ -76,6 +76,13 @@ export const ImageWrapper = styled.div`
             border-radius: 0;
         }
     }
+    @media (max-width: 560px) {
+        height: 250px;
+        ::after {
+            height: 254px;
+            left: -2px;
+        }
+    }
 `
 
 export const Image = styled.img`

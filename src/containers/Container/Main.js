@@ -20,6 +20,10 @@ export const Toggle = styled.div`
     height: 60px;
     border-radius: 50%;
     z-index: 2;
+    @media (max-width: 560px) {
+        bottom: 15px;
+        right: 15px; 
+    }
 `
 
 export const Sun = styled.img`

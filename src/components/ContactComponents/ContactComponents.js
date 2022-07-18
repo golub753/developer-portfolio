@@ -11,6 +11,14 @@ export const MainText = styled.div`
     color: ${props => props.theme === 'white' ? '#42446E' : '#CCCCCC'};
     margin-bottom: 9px;
     transition: .3s;
+    @media (max-width: 768px) {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    @media (max-width: 425px) {
+        font-size: 30px;
+        line-height: 29px;
+    }
 `
 
 export const Mail = styled.a`
@@ -28,4 +36,11 @@ export const Mail = styled.a`
     background-clip: text;
     text-fill-color: transparent;
     text-decoration: none;
+    @media (max-width: 768px) {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    @media (max-width: 425px) {
+        font-size: 22px;
+    }
 `
